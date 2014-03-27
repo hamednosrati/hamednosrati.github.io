@@ -1,0 +1,241 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+ font-size: 90%;
+}
+
+
+
+/*start floor1 means header*/
+/*start box1*/
+
+.floor0{
+  background-image: url('image/f1bfi.jpg');
+  background-size: cover;
+}
+.floor1{
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+.main{
+  display: block;
+  border: 1px solid rgba(0,0,0,0.5);
+  border-bottom: 3px solid rgba(0,0,0,0.5);
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  background: rgba(0,0,0,0.10);/*********/
+
+    -o-box-shadow: 
+        0 2px 8px rgba(0,0,0,0.5),
+        inset 0 1px rgba(255,255,255,0.3),
+        inset 0 10px rgba(255,255,255,0.2),
+        inset 0 10px 20px rgba(255,255,255,0.25),
+        inset 0 -15px 30px rgba(0,0,0,0.3);
+
+    -webkit-box-shadow: 
+        0 2px 8px rgba(0,0,0,0.5),
+        inset 0 1px rgba(255,255,255,0.3),
+        inset 0 10px rgba(255,255,255,0.2),
+        inset 0 10px 20px rgba(255,255,255,0.25),
+        inset 0 -15px 30px rgba(0,0,0,0.3);
+
+    -moz-box-shadow:
+        0 2px 8px rgba(0,0,0,0.5),
+        inset 0 1px rgba(255,255,255,0.3),
+        inset 0 10px rgba(255,255,255,0.2),
+        inset 0 10px 20px rgba(255,255,255,0.25),
+        inset 0 -15px 30px rgba(0,0,0,0.3);
+  
+  box-shadow: 
+        0 2px 8px rgba(0,0,0,0.5), /* Exterior Shadow */
+        inset 0 1px rgba(255,255,255,0.3), /* Top light Line */
+        inset 0 10px rgba(255,255,255,0.2), /* Top Light Shadow */
+        inset 0 10px 20px rgba(255,255,255,0.25), /* Sides Light Shadow */
+        inset 0 -15px 30px rgba(0,0,0,0.3); /* Dark Background */
+}
+
+
+.main li{
+  list-style-type: none;
+  float: right;
+  padding-top: 30px;
+}
+
+.main li a{
+  text-decoration: none;
+  color: black;
+  font-size:1.1em;
+  font-family: elham,'elham';/**********/
+  font-style: italic;
+  padding-right:5px;
+  margin-right: 30px; 
+  display: block;
+  font-weight: 300;
+  opacity: 0.6;
+}
+
+.main li a:hover{
+  color: #ee3b16;
+  opacity: 0.7;
+  font-family:*************** ;
+}
+
+
+
+/*menu2 for respancive*/
+
+
+
+.mian{
+  display: none;
+  border: 1px solid rgba(0,0,0,0.5);
+  border-bottom: 3px solid rgba(0,0,0,0.5);
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  background: rgba(0,0,0,0.10);
+
+    -o-box-shadow: 
+        0 2px 8px rgba(0,0,0,0.5),
+        inset 0 1px rgba(255,255,255,0.3),
+        inset 0 10px rgba(255,255,255,0.2),
+        inset 0 10px 20px rgba(255,255,255,0.25),
+        inset 0 -15px 30px rgba(0,0,0,0.3);
+
+    -webkit-box-shadow: 
+        0 2px 8px rgba(0,0,0,0.5),
+        inset 0 1px rgba(255,255,255,0.3),
+        inset 0 10px rgba(255,255,255,0.2),
+        inset 0 10px 20px rgba(255,255,255,0.25),
+        inset 0 -15px 30px rgba(0,0,0,0.3);
+
+    -moz-box-shadow:
+        0 2px 8px rgba(0,0,0,0.5),
+        inset 0 1px rgba(255,255,255,0.3),
+        inset 0 10px rgba(255,255,255,0.2),
+        inset 0 10px 20px rgba(255,255,255,0.25),
+        inset 0 -15px 30px rgba(0,0,0,0.3);
+  
+  box-shadow: 
+        0 2px 8px rgba(0,0,0,0.5), /* Exterior Shadow */
+        inset 0 1px rgba(255,255,255,0.3), /* Top light Line */
+        inset 0 10px rgba(255,255,255,0.2), /* Top Light Shadow */
+        inset 0 10px 20px rgba(255,255,255,0.25), /* Sides Light Shadow */
+        inset 0 -15px 30px rgba(0,0,0,0.3); /* Dark Background */
+}
+
+
+
+menu.mian li{
+  list-style-type:none ;
+  position: relative;
+  float: right;
+  top: 10px;
+}
+
+menu.mian menu{
+  position: absolute;
+  right:50px;
+  top:100px;
+  border-radius: 18px;
+  min-width:100%;
+  opacity: 0;
+  pointer-events:none;
+  transition:all 200ms;
+  white-space: nowrap;
+  -webkit-transform:skew(10deg,20deg);
+}
+
+menu.mian li:hover menu{
+  opacity: 1;
+  right: 0;
+  top: 40px;
+  transition:all 400ms;
+  padding-right:none;
+  pointer-events:auto;
+  -webkit-transform:skew(0deg,0deg);
+  pointer:;
+}
+
+
+
+menu.mian li  li{
+  float: none;
+  padding-right:none;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  
+  background: rgba(0,0,0,0.10);
+
+    -o-box-shadow: 
+        0 2px 8px rgba(0,0,0,0.5),
+        inset 0 1px rgba(255,255,255,0.3),
+        inset 0 10px rgba(255,255,255,0.2),
+        inset 0 10px 20px rgba(255,255,255,0.25),
+        inset 0 -15px 30px rgba(0,0,0,0.3);
+
+    -webkit-box-shadow: 
+        0 2px 8px rgba(0,0,0,0.5),
+        inset 0 1px rgba(255,255,255,0.3),
+        inset 0 10px rgba(255,255,255,0.2),
+        inset 0 10px 20px rgba(255,255,255,0.25),
+        inset 0 -15px 30px rgba(0,0,0,0.3);
+
+    -moz-box-shadow:
+        0 2px 8px rgba(0,0,0,0.5),
+        inset 0 1px rgba(255,255,255,0.3),
+        inset 0 10px rgba(255,255,255,0.2),
+        inset 0 10px 20px rgba(255,255,255,0.25),
+        inset 0 -15px 30px rgba(0,0,0,0.3);
+  
+  box-shadow: 
+        0 2px 8px rgba(0,0,0,0.5), /* Exterior Shadow */
+        inset 0 1px rgba(255,255,255,0.3), /* Top light Line */
+        inset 0 10px rgba(255,255,255,0.2), /* Top Light Shadow */
+        inset 0 10px 20px rgba(255,255,255,0.25), /* Sides Light Shadow */
+        inset 0 -15px 30px rgba(0,0,0,0.3); /* Dark Background */
+}
+
+menu.mian li  li:hover{
+  background-color: #3595E9;
+  -webkit-border-radius: 3px;
+}
+
+
+
+menu.mian li  menu li a{
+  display: block;
+  padding: 20px 20px;
+  text-align: center;
+  font-size:19px;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+@media all and (min-width: 100px) and (max-width: 800px){
+ .main{
+  display: none;
+ }
+
+ .mian{
+  display: block;
+ }
+
+}
+
+/*end box1*/
+/*end floor1 means header*/
+.floor2{
+  margin-top: 95px;
+}
+
+
+
